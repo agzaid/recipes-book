@@ -1,0 +1,20 @@
+.row {
+    padding: 2em;
+    margin: 10px;
+}
+
+div h2 {
+    color: darkcyan;
+    font-family: monospace;
+    letter-spacing: .25em;
+}
+
+ul {
+    position: relative;
+}
+
+span {
+    position: absolute;
+    color: rgb(226, 75, 19);
+    right: 20vw;
+}

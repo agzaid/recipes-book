@@ -1,0 +1,12 @@
+.text {
+    display: block;
+    width: 250px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+a {
+    margin-top: 10px;
+    border-bottom-right-radius: 36px;
+}

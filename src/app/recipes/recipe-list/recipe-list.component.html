@@ -1,0 +1,19 @@
+
+<br>
+<hr>
+<div class="row">
+  <div class="col-xs-12">
+    <button class="btn btn-success" (click)="onNewRecipe()">New Recipe</button>
+  </div>
+</div>
+<hr>
+<div class="row">
+  <div class="col-xs-12">
+    <input #query type="text" placeholder="Search..." (keyup)="filter(query.value)">
+    <app-recipe-item
+      *ngFor="let recipeEl of filteredProducts;let m = index"
+      [index]="m"
+      [recipe]="recipeEl"></app-recipe-item>
+  </div>
+</div>
+
